@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: N20 Underground2
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N20 Underground2
+  NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
-  choices: []
+  choices:
+  - choiceText: 
+    nextNode: {fileID: 11400000, guid: ce68a4532c9e579439531f837ac76c79, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []

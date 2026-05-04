@@ -13,6 +13,21 @@ MonoBehaviour:
   m_Name: N03 ConsumeCans
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N03 ConsumeCans
+  NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
-  choices: []
+  choices:
+  - choiceText: yes
+    nextNode: {fileID: 0}
+    changeResource: Cans
+    changeAmount: -1
+    checks:
+    - checkResource: Cans
+      checkType: 4
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: 6c289e6787541e944a5a38e943a68892, type: 2}
+  - choiceText: no
+    nextNode: {fileID: 11400000, guid: f20a94915a8044c4491fce0d33a44e0b, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []

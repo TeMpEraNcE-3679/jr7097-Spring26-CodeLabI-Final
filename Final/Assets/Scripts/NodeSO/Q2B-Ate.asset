@@ -10,20 +10,27 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 064fc729ed3118e418ff2aa3ea4018d4, type: 3}
-  m_Name: N06 Open Door
+  m_Name: Q2B-Ate
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
-  NodeName: N06 Open Door
+  NodeName: Q2B-Ate
   NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
   choices:
-  - choiceText: YES
-    nextNode: {fileID: 11400000, guid: a832cdb09717d7b4eb21758e5a87af78, type: 2}
-    changeResource: 
-    changeAmount: 0
-    checks: []
   - choiceText: 
-    nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
+    nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
-    checks: []
+    checks:
+    - checkResource: 
+      checkType: 0
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: 27c61b625f69b9f4991fa491f0611e78, type: 2}
+    - checkResource: 
+      checkType: 0
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: cb4663efbdb5c2c4193bd8650604102f, type: 2}
+    - checkResource: 
+      checkType: 0
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: a390786c288ffd94da2b7c9a254ad59e, type: 2}

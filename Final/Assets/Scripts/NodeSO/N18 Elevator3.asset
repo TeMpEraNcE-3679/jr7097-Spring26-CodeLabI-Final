@@ -13,6 +13,12 @@ MonoBehaviour:
   m_Name: N18 Elevator3
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N18 Elevator3
+  NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
-  choices: []
+  choices:
+  - choiceText: 
+    nextNode: {fileID: 11400000, guid: af4dedbdcd0b5f446a63993b4395324c, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []

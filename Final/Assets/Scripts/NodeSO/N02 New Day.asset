@@ -13,6 +13,17 @@ MonoBehaviour:
   m_Name: N02 New Day
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N02 New Day
+  NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
-  choices: []
+  choices:
+  - choiceText: 
+    nextNode: {fileID: 11400000, guid: 219bcb4d577cab747b867c4fa88ae193, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []
+  - choiceText: 
+    nextNode: {fileID: 11400000, guid: f20a94915a8044c4491fce0d33a44e0b, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []

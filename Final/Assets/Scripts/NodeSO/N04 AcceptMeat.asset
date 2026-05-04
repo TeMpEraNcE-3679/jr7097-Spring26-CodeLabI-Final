@@ -13,6 +13,21 @@ MonoBehaviour:
   m_Name: N04 AcceptMeat
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N04 AcceptMeat
+  NodeNumber: 
   Background: {fileID: 0}
   Text: {fileID: 0}
-  choices: []
+  choices:
+  - choiceText: YES
+    nextNode: {fileID: 11400000, guid: 6c289e6787541e944a5a38e943a68892, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks: []
+  - choiceText: NO
+    nextNode: {fileID: 11400000, guid: 6c289e6787541e944a5a38e943a68892, type: 2}
+    changeResource: 
+    changeAmount: 0
+    checks:
+    - checkResource: 
+      checkType: 0
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: 35b379d12fc65aa4ca7d01bb3d3006bf, type: 2}

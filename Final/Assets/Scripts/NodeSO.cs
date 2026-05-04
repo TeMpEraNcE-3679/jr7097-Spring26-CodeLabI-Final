@@ -3,20 +3,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NodeSO", menuName = "Scriptable Objects/NodeSO")]
 public class NodeSO : ScriptableObject
 {
-    [Header("Node Content")]
+    //Node Content
     public string NodeName;
     public string NodeNumber;
     public Sprite Background;
     public Sprite Text;
 
-    [Header("Choices")]
+    //Next Node that comes up via players' choices
     public Choice[] choices;
-    
-    [Header("System Check")]
-    public int NumberofDays;
-    public int NumberofCans;
-    public int HungryDays;
-    public bool DidUEatMeat;
+
 }
 
 [System.Serializable]
@@ -24,4 +19,30 @@ public class Choice
 {
     public string choiceText;
     public NodeSO nextNode;
+
+    public string changeResource;
+    public int changeAmount;
+
+    public SystemCheck[] checks;
+}
+
+[System.Serializable]
+public class SystemCheck
+{
+    public string checkResource;
+    public CheckType checkType;
+    public int checkValue;
+
+
+    public NodeSO nextNode;
+}
+
+public enum CheckType
+{
+    Equal,
+    NotEqual,
+    Less,
+    LessOrEqual,
+    Greater,
+    GreaterOrEqual
 }
