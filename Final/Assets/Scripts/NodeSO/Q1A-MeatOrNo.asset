@@ -15,18 +15,21 @@ MonoBehaviour:
   NodeName: Q1A-MeatOrNo
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: You decide to look through the peephole, making absolutely no sound.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks:
-    - checkResource: 
-      checkType: 0
+    - checkResource: HasEatenMeat
+      checkType: 4
       checkValue: 0
       nextNode: {fileID: 11400000, guid: 0ff20fe696c2bd14aa691983faf36ca0, type: 2}
-    - checkResource: 
+    - checkResource: HasEatenMeat
       checkType: 0
       checkValue: 0
       nextNode: {fileID: 11400000, guid: fc8808bbee1e4fa4da2ab4c6bbbac73a, type: 2}

@@ -15,7 +15,8 @@ MonoBehaviour:
   NodeName: N05 Peek
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: Night gradually deepens, and you can hear faint noises coming from
+    outside. Do you want to peek through the peephole?
   choices:
   - choiceText: YES
     nextNode: {fileID: 11400000, guid: 4db59d20ebcd3e646914eb5531b6b236, type: 2}
@@ -24,6 +25,6 @@ MonoBehaviour:
     checks: []
   - choiceText: NO
     nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Days
+    changeAmount: 1
     checks: []

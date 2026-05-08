@@ -15,22 +15,23 @@ MonoBehaviour:
   NodeName: Q1B-Ate
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: Perhaps it had been so long since you last ate your fill like this
+    that you even felt a little lightheaded, almost tipsy.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
     checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 3
       nextNode: {fileID: 11400000, guid: 73bf7866cf651a64fbfa1f261556251b, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: a8c353944eb75d74d8e7b3e1c4ea6ffe, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 4
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: e6e95a635f1779744a39a82d114e0789, type: 2}

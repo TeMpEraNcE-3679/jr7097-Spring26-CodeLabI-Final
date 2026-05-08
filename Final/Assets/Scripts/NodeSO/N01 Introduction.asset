@@ -15,10 +15,14 @@ MonoBehaviour:
   NodeName: N01 Introduction
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: You wake up in your messy room and look out at the thick fog outside
+    the window. Ever since the fog appeared, anyone who has walked into it has never
+    been seen again. Naturally, although the water and electricity are still on,
+    people can no longer obtain supplies from the outside world, and your home is
+    down to its last few cans of food.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Days
+    changeAmount: 1
     checks: []

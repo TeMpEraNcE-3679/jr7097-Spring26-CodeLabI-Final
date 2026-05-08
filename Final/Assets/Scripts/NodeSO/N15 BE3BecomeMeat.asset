@@ -13,6 +13,18 @@ MonoBehaviour:
   m_Name: N15 BE3BecomeMeat
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N15 BE3BecomeMeat
+  NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
-  choices: []
+  narrativeText: "Wrapped in a warm embrace, you feel as though you have become a
+    newborn once more in your mother\u2019s arms. Your body and soul join Him as
+    one. Hunger, fear, and loneliness will trouble you no longer, because you have
+    become Him, and He is you."
+  choices:
+  - choiceText: NEW GAME
+    nextNode: {fileID: 11400000, guid: 97842094b360a8242be8a14a4b06879d, type: 2}
+    changeResource: 
+    changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 1
+    checks: []

@@ -15,10 +15,12 @@ MonoBehaviour:
   NodeName: N13 Confusion
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: Countless arms reach out from the walls to stroke you, pitch-black
+    hair hangs from the ceiling and coils around you, and eyes of all sizes stare
+    at you from the floor. For no reason at all, you feel that this is an invitation.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Days
+    changeAmount: 1
     checks: []

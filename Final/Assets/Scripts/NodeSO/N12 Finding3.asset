@@ -15,15 +15,10 @@ MonoBehaviour:
   NodeName: N12 Finding3
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: The hallway is completely dark. You cannot see anything.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: cdf62d9e5ac668f4ca7d57f9fea38930, type: 2}
-    changeResource: 
-    changeAmount: 0
-    checks: []
-  - choiceText: 
-    nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
     changeResource: 
     changeAmount: 0
     checks: []

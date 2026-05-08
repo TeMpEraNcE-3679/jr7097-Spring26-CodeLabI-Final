@@ -15,15 +15,14 @@ MonoBehaviour:
   NodeName: N11 Finding2
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: As usual, the neighbors have gathered quietly, but there seem to
+    be fewer of them this time, and Grandma is not among them. As you watch them,
+    something feels off. Some of them have swollen bellies like women about to give
+    birth, while others have a huge mass of flesh bulging from one shoulder, almost
+    like a second head growing out of it.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: cdf62d9e5ac668f4ca7d57f9fea38930, type: 2}
-    changeResource: 
-    changeAmount: 0
-    checks: []
-  - choiceText: 
-    nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
     changeResource: 
     changeAmount: 0
     checks: []

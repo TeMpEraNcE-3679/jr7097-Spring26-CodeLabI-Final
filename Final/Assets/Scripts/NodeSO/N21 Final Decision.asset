@@ -15,15 +15,24 @@ MonoBehaviour:
   NodeName: N21 Final Decision
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: "It may seem as though your only choice is to accept the elixir,
+    but there is another one. You can set this place on fire. Though you will die
+    in agony, you will remain human until the very end, and there will be one less
+    place like this in the world. I am truly curious\u2014what will you choose?"
   choices:
-  - choiceText: 
+  - choiceText: BURN IT
     nextNode: {fileID: 11400000, guid: 609fae2f6aff3564ea11e810b67fc7af, type: 2}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []
-  - choiceText: 
+  - choiceText: EAT IT
     nextNode: {fileID: 11400000, guid: ce5b349e193f2f04ca92ed752acbf09a, type: 2}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []

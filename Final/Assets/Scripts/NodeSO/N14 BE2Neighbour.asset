@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: N14 BE2Neighbour
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N14 BE2Neighbour
+  NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
-  choices: []
+  narrativeText: "Grandma\u2019s grandson is crouching at the end of the hallway
+    with his back to you. The door to their apartment is open, and blood is spilling
+    out. He turns around, his bulging eyeballs nearly falling out of their sockets,
+    then he tears off a piece of your body and begins eating it with the same cheerful
+    delight as if he were pulling a slice from a birthday cake."
+  choices:
+  - choiceText: NEW GAME
+    nextNode: {fileID: 11400000, guid: 97842094b360a8242be8a14a4b06879d, type: 2}
+    changeResource: 
+    changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 1
+    checks: []

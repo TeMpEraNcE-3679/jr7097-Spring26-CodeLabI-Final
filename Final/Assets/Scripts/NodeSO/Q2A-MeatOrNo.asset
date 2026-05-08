@@ -15,18 +15,21 @@ MonoBehaviour:
   NodeName: Q2A-MeatOrNo
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: You gently place your hand on the doorknob.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks:
-    - checkResource: 
-      checkType: 0
+    - checkResource: HasEatenMeat
+      checkType: 4
       checkValue: 0
       nextNode: {fileID: 11400000, guid: be7320b9f5308c949a8a137a19ed8c7f, type: 2}
-    - checkResource: 
+    - checkResource: HasEatenMeat
       checkType: 0
       checkValue: 0
       nextNode: {fileID: 11400000, guid: c591c19aea0ef984fa44427356b04c14, type: 2}

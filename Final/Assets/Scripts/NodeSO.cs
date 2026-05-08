@@ -7,7 +7,9 @@ public class NodeSO : ScriptableObject
     public string NodeName;
     public string NodeNumber;
     public Sprite Background;
-    public Sprite Text;
+
+    [TextArea]
+    public string narrativeText;
 
     //Next Node that comes up via players' choices
     public Choice[] choices;
@@ -22,6 +24,10 @@ public class Choice
 
     public string changeResource;
     public int changeAmount;
+    public string changeResource1;
+    public int changeAmount1;
+
+    public bool resetAllResources;
 
     public SystemCheck[] checks;
 }

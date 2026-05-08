@@ -13,6 +13,19 @@ MonoBehaviour:
   m_Name: N22 EndBurn
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N22 EndBurn
+  NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
-  choices: []
+  narrativeText: "Hearing is the last sense to remain when a person dies. Through
+    the haze, you can faintly hear your \u2018neighbors\u2019 rushing over after
+    discovering what has happened here, their despair beast-like wails. The nobility
+    of your sacrifice does not lessen the pain of your body being burned, but I respect
+    your determination to die as a human being."
+  choices:
+  - choiceText: NEW GAME
+    nextNode: {fileID: 11400000, guid: 97842094b360a8242be8a14a4b06879d, type: 2}
+    changeResource: 
+    changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 1
+    checks: []

@@ -15,10 +15,16 @@ MonoBehaviour:
   NodeName: N17 Elevator2
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: "After your neighbors head downstairs, you quietly open the door
+    and take the elevator to the basement. As you pass one of your neighbors\u2019
+    doors, you find two cans lying outside.After your neighbors head downstairs,
+    you quietly open the door and take the elevator to the basement. "
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: 2f61f2e83591b8044a4dca388963fe1f, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Cans
+    changeAmount: 2
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []

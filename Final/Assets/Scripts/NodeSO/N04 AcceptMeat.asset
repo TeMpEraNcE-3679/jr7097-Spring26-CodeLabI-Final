@@ -15,19 +15,29 @@ MonoBehaviour:
   NodeName: N04 AcceptMeat
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: As usual, the smell of meat drifted through the apartment door from
+    the hallway, making your hunger even harder to endure. But today, you heard a
+    knock at the door. It was the grandma next door, who lives alone with her young
+    grandson, asking whether you would like to try her special homemade stew. Will
+    you open the door and accept this offering?
   choices:
   - choiceText: YES
     nextNode: {fileID: 11400000, guid: 6c289e6787541e944a5a38e943a68892, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: HasEatenMeat
+    changeAmount: 1
+    changeResource1: HungryDays
+    changeAmount1: -1
+    resetAllResources: 0
     checks: []
   - choiceText: NO
     nextNode: {fileID: 11400000, guid: 6c289e6787541e944a5a38e943a68892, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: HungryDays
+    changeAmount: 1
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: HungryDays
+      checkType: 5
+      checkValue: 3
       nextNode: {fileID: 11400000, guid: 35b379d12fc65aa4ca7d01bb3d3006bf, type: 2}

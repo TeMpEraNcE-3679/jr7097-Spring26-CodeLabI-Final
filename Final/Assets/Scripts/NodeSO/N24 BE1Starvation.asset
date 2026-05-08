@@ -13,6 +13,16 @@ MonoBehaviour:
   m_Name: N24 BE1Starvation
   m_EditorClassIdentifier: Assembly-CSharp::NodeSO
   NodeName: N24 BE1Starvation
+  NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
-  choices: []
+  narrativeText: You died of hunger, knowing nothing and possessing nothing. It does
+    not matter. Even before the fog, many people had always died this way.
+  choices:
+  - choiceText: NEW GAME
+    nextNode: {fileID: 11400000, guid: 97842094b360a8242be8a14a4b06879d, type: 2}
+    changeResource: 
+    changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 1
+    checks: []

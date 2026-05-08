@@ -15,22 +15,24 @@ MonoBehaviour:
   NodeName: Q1C-NotEat
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: "You do not know what you expect to see, but there is undeniably
+    a secret sense of anticipation in you. Are you hoping that something might rescue
+    you from this slowly deepening despair you now call \u201Ceveryday life\u201D?"
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
     checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 3
       nextNode: {fileID: 11400000, guid: 1489eb82477467e4b923115de88331a4, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: f2eb853b70215714894b51389fd574a2, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 4
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: 7b3b63f78cc0ade4c892cc9bfe91c9b6, type: 2}

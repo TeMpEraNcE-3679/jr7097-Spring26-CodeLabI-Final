@@ -15,10 +15,15 @@ MonoBehaviour:
   NodeName: N18 Elevator3
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: For some reason, you have a feeling that tonight may be the last
+    night of your life. You have to do something. Fewer and fewer neighbors are going
+    downstairs to get meat, and today, before they leave, you step into the elevator.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: af4dedbdcd0b5f446a63993b4395324c, type: 2}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []

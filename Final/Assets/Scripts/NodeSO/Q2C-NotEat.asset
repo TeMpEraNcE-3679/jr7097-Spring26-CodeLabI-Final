@@ -15,22 +15,22 @@ MonoBehaviour:
   NodeName: Q2C-NotEat
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: It is cold, hard, and unfamiliar.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
     checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 3
       nextNode: {fileID: 11400000, guid: 79fd0be6120c5ad49bf0897da8ec55f3, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: 9e0be084792605e46951e3e315fc3985, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 4
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: cd8f89f3d8e86f946b37f5025463b7cc, type: 2}

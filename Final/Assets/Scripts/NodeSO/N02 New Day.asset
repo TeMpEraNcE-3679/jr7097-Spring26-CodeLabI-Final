@@ -15,15 +15,19 @@ MonoBehaviour:
   NodeName: N02 New Day
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: A new day begins. Who knows whether there will even be another one
+    after this?
   choices:
-  - choiceText: 
-    nextNode: {fileID: 11400000, guid: 219bcb4d577cab747b867c4fa88ae193, type: 2}
+  - choiceText: CONTINUE
+    nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
-    checks: []
-  - choiceText: 
-    nextNode: {fileID: 11400000, guid: f20a94915a8044c4491fce0d33a44e0b, type: 2}
-    changeResource: 
-    changeAmount: 0
-    checks: []
+    checks:
+    - checkResource: Cans
+      checkType: 4
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: 219bcb4d577cab747b867c4fa88ae193, type: 2}
+    - checkResource: Cans
+      checkType: 3
+      checkValue: 0
+      nextNode: {fileID: 11400000, guid: f20a94915a8044c4491fce0d33a44e0b, type: 2}

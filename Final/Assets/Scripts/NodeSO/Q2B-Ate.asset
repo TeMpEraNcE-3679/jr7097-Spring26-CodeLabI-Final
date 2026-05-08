@@ -15,22 +15,23 @@ MonoBehaviour:
   NodeName: Q2B-Ate
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: It feels subtly soft, and for a moment, it is as if something has
+    gently grasped your hand in return.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 0}
     changeResource: 
     changeAmount: 0
     checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 3
       nextNode: {fileID: 11400000, guid: 27c61b625f69b9f4991fa491f0611e78, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 3
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: cb4663efbdb5c2c4193bd8650604102f, type: 2}
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
+    - checkResource: Days
+      checkType: 4
+      checkValue: 6
       nextNode: {fileID: 11400000, guid: a390786c288ffd94da2b7c9a254ad59e, type: 2}

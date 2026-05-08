@@ -15,14 +15,11 @@ MonoBehaviour:
   NodeName: N07 Illusion1
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: For some reason, you hear the grandchild next door calling out to
+    you from outside the door.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: cdf62d9e5ac668f4ca7d57f9fea38930, type: 2}
     changeResource: 
     changeAmount: 0
-    checks:
-    - checkResource: 
-      checkType: 0
-      checkValue: 0
-      nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
+    checks: []

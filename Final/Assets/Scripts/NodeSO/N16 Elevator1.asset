@@ -15,10 +15,19 @@ MonoBehaviour:
   NodeName: N16 Elevator1
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: You find a can among the clutter in the hallway. Strangely, in this
+    apartment building where no one can go outside anymore, the elevator is still
+    being used. The number slowly rises from the basement, seeming to stop on every
+    floor. Before it reaches your floor, you find yourself inexplicably returning
+    to your apartment, shutting the door, and looking through the peephole. The elevator
+    arrives. Your neighbors come back smiling brightly, carrying buckets in their
+    hands, and the buckets seem much heavier now.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Days
+    changeAmount: 1
+    changeResource1: Cans
+    changeAmount1: 1
+    resetAllResources: 0
     checks: []

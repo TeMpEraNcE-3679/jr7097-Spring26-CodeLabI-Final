@@ -15,10 +15,20 @@ MonoBehaviour:
   NodeName: N19 Underground1
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: You quietly follow your neighbors in the elevator down to the basement,
+    where the parking garage is supposed to be. When the elevator doors open, a wave
+    of warm, damp, bloody air hits you. Before you is no longer a parking garage,
+    but a deep and winding cavern wrapped in crimson flesh, as though you are inside
+    some living creature. The entire cavern rises and falls in a slow pulse. Crawling
+    low, you peer inside and see your neighbors deeper within, shoveling chunks of
+    flesh from the cave into their buckets. You cannot see clearly, but their faces
+    seem to wear satisfied smiles.
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: 58c2581808b448c4781d9e1bd81c8257, type: 2}
-    changeResource: 
-    changeAmount: 0
+    changeResource: Days
+    changeAmount: 1
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []

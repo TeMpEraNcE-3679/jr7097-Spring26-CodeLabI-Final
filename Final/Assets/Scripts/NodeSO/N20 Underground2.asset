@@ -15,10 +15,22 @@ MonoBehaviour:
   NodeName: N20 Underground2
   NodeNumber: 
   Background: {fileID: 0}
-  Text: {fileID: 0}
+  narrativeText: "Now let me tell you this: if you walk to the deepest part of the
+    cavern, to the very source from which all the outward-growing flesh emerges,
+    you will see a woman\u2019s face. You may even recognize her. She was once one
+    of your neighbors too. I will not tell you why she became like this, but I will
+    tell you that if you go up to her and reach your hand into her mouth, you will
+    find an elixir. Swallow it, and you will become \u201Csomething other than human.\u201D
+    You will grow stronger and sharper, will no longer feel hunger, and will not
+    become a monster like your neighbors\u2014unless you fail to obtain the next
+    elixir. In order to stay alive, you will have no choice but to walk into that
+    fog and search for another one."
   choices:
-  - choiceText: 
+  - choiceText: CONTINUE
     nextNode: {fileID: 11400000, guid: ce68a4532c9e579439531f837ac76c79, type: 2}
     changeResource: 
     changeAmount: 0
+    changeResource1: 
+    changeAmount1: 0
+    resetAllResources: 0
     checks: []
